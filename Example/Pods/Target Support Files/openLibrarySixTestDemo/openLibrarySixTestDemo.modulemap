@@ -1,0 +1,6 @@
+framework module openLibrarySixTestDemo {
+  umbrella header "openLibrarySixTestDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 //
 
 #import "LQGViewController.h"
+#import <openLibrarySixTestDemo/Test.h>
 
 @interface LQGViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [Test firstTest];
 }
 
 - (void)didReceiveMemoryWarning
